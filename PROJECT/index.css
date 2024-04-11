@@ -1,0 +1,207 @@
+.rest{
+    display: block;  
+    max-width: 50%;
+    height: auto;
+    padding: 5px;
+    position: relative;  
+    align-self: center;
+    width: 300px;
+    float: center;
+    align-items: center;
+    margin: auto;
+}
+body{
+    background-color: burlywood;
+    background-size: auto;
+}
+body, html {
+    height: 100%;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .bg-image {
+    /* The image used */
+    background-image: url("https://media-cdn.tripadvisor.com/media/photo-s/01/ec/6d/fa/flame-tree-restaurant.jpg");
+  
+    /* Add the blur effect */
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+  
+    /* Full height */
+    height: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  /* Position text in the middle of the page/image */
+  .bg-text {
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+  }
+
+#restaurants li::before {
+  content: "";
+}
+
+
+
+.ui.header {
+
+  color: white;
+
+  padding: 2em 0em;
+
+  text-align: center;
+
+  background-color: rgba(0, 0, 0, 0.4);
+
+}
+
+
+.bg-text {
+
+  background-color: rgba(0, 0, 0, 0.4);
+
+  padding: 2em;
+
+  text-align: center;
+
+  margin: 0 auto;
+
+  max-width: 600px;
+
+}
+
+
+.list-container {
+
+  max-width: 800px;
+
+  margin: 0 auto;
+
+}
+
+
+.ui.divided.list {
+
+  margin: 2em 0em;
+
+}
+
+
+.four.wide.column {
+
+  padding: 0 1em;
+
+}
+
+
+.ui.cards {
+
+  margin: 0;
+
+}
+
+
+.card {
+
+  background-color: white;
+
+  border-radius: 0.28571429rem;
+
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+
+  margin-bottom: 1rem;
+
+}
+
+
+.title {
+
+  font-size: 1.5rem;
+
+  font-weight: bold;
+
+  padding: 1em;
+
+  border-bottom: 1px solid #eee;
+
+}
+
+
+.meta {
+
+  padding: 0.5em 1em;
+
+  color: #666;
+
+}
+
+
+.information {
+
+  padding: 1em;
+
+}
+
+
+.information span {
+
+  display: block;
+
+  font-size: 0.8rem;
+
+  color: #666;
+
+  margin-bottom: 0.5rem;
+
+}
+
+
+/* Media Queries */
+
+@media (max-width: 767px) {
+
+  .bg-text {
+
+    padding: 1em;
+
+  }
+
+
+  .four.wide.column {
+
+    padding: 0;
+
+  }
+
+
+  .ui.cards {
+
+    margin-top: 1rem;
+
+  }
+
+}
+#cuisine-type {
+  font-size:x-large;
+  font-style: italic;
+  color: goldenrod;
+}
