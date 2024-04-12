@@ -48,3 +48,7 @@ function setUpRestaurantDetails(restaurant) {
   const restaurantOpeningHours = document.querySelector("#open");
   restaurantOpeningHours.textContent = restaurant["open"];
 }
+const homeBtn = document.getElementById("home-btn");
+const searchBtn = document.getElementById("search-btn");
+document.addEventListener("scroll", function () {
+})
