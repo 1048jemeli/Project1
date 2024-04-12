@@ -88,4 +88,21 @@ reservationForm.addEventListener("submit", (e) => {
     guests,
   };
 
+  fs.readFile("bookings.json", "utf8", (err, data) => {
+    if (err) {
+      console.error("Error reading file:", err);
+      return;
+    }
+
+    let bookings = JSON.parse(data);
+    bookings.push(reservationData);
+
+    fs.writeFile("bookings.json", JSON.stringify(bookings, null, 2), (err) => {
+      if (err) {
+        console.error("Error writing file:", err);
+        return;
+      }
+
+    })
+})
 })
