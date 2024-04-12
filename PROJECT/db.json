@@ -39,6 +39,7 @@
         "open": ["6:00am-10:00pm"],
         "Cuisine type": "fine dining",
         "picture": "https://d1tm14lrsghf7q.cloudfront.net/public/media/103456/conversions/SDT-Iyoki-Cover-cover.jpg"
+      
       },
       {
         "id": "6",
@@ -54,7 +55,7 @@
         "location": ["Kisumu", "West Kajulu"],
         "open": ["8:00am-9:00pm"],
         "Cuisine type": "french cuisine",
-        "picture": "https://cdn.tatlerasia.com/tatlerasia/i/2022/07/14023538-oscietra-caviar-petuna-trout-crustacean-green-chilly_cover_1500x1000.jpg"
+        "picture": "https://www.restaurantconfusion.com/wp-content/uploads/2021/01/french-cuisine-840x473.jpg"
       },
       {
         "id": "8",

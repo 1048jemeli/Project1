@@ -11,7 +11,7 @@
     margin: auto;
 }
 body{
-    background-color: burlywood;
+    background-color:#ccc;
     background-size: auto;
 }
 body, html {
@@ -27,7 +27,7 @@ body, html {
     background-image: url("https://media-cdn.tripadvisor.com/media/photo-s/01/ec/6d/fa/flame-tree-restaurant.jpg");
   
     /* Add the blur effect */
-    filter: blur(8px);
+    filter: blur(2px);
     -webkit-filter: blur(8px);
   
     /* Full height */
@@ -51,9 +51,11 @@ body, html {
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 2;
-    width: 80%;
+    width: 50%;
     padding: 20px;
     text-align: center;
+    font-style: italic;
+    height: 32%;
   }
 
 #restaurants li::before {
@@ -204,4 +206,65 @@ body, html {
   font-size:x-large;
   font-style: italic;
   color: goldenrod;
+}
+#open {
+  font-size: x-large;
+  font-style: inherit;
+  color: blue;
+
+}
+#about {
+  text-align: center;
+}
+.contact {
+  background-color: dimgrey;
+  text-align: justify;
+}
+nav {
+
+  background-color:blanchedalmond;
+
+  padding: 10px;
+
+}
+
+
+nav ul {
+
+  list-style: none;
+
+  margin: 0;
+
+  padding: 0;
+
+  display: flex;
+
+  align-items: center;
+
+}
+
+
+nav ul li {
+
+  margin-right: 20px;
+
+}
+
+
+nav ul li a {
+
+  color:black;
+
+  text-decoration: none;
+
+}
+
+
+nav ul li a:hover {
+
+  color: #ccc;
+
+}
+.info{
+  text-align: center;
 }

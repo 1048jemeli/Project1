@@ -19,11 +19,7 @@ function fetchRestaurants(url) {
         });
 }
 
-        
-        
-
-
-function displayRestaurant(restaurant) {
+    function displayRestaurant(restaurant) {
     const listHolder = document.getElementById('restaurants');
 
     const li = document.createElement('li');
@@ -55,6 +51,23 @@ function setUpRestaurantDetails(restaurant) {
     restaurantOpeningHours.textContent = restaurant['open'];
 
 }
+const homeBtn = document.getElementById('home-btn');
+
+const searchBtn = document.getElementById('search-btn');
+
+
+homeBtn.addEventListener('click', function() {
+
+  window.location.href = '/';
+
+});
+
+
+searchBtn.addEventListener('click', function() {
+
+  window.location.href = '/search';
+
+});
 
 
 
