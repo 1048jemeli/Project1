@@ -31,4 +31,9 @@ function displayRestaurant(restaurant) {
   });
 }
 
+function setUpRestaurantDetails(restaurant) {
+  const preview = document.getElementById("picture");
 
+  preview.src = restaurant.picture;
+
+  
