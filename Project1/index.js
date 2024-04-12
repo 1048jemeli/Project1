@@ -51,4 +51,24 @@ function setUpRestaurantDetails(restaurant) {
 const homeBtn = document.getElementById("home-btn");
 const searchBtn = document.getElementById("search-btn");
 document.addEventListener("scroll", function () {
-})
+  let title = document.getElementById("title");
+  let scrollPos = window.scrollY;
+  let windowHeight = window.innerHeight;
+  let titleOffsetTop = title.offsetTop;
+
+  let distanceFromTop = titleOffsetTop - scrollPos;
+
+  let animationStart = windowHeight * 0.8;
+  let animationEnd = windowHeight * 0.2;
+
+  let animationProgress = Math.max(
+    0,
+    Math.min(
+      1,
+      (distanceFromTop - animationEnd) / (animationStart - animationEnd)
+    )
+  );
+
+  title.style.opacity = animationProgress;
+  title.style.width = animationProgress * 100 + "%";
+});
