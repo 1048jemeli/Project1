@@ -68,6 +68,31 @@ searchBtn.addEventListener('click', function() {
   window.location.href = '/search';
 
 });
+const reservationForm = document.getElementById('reservation-form');
 
 
+reservationForm.addEventListener('submit', (e) => {
+
+  e.preventDefault();
+
+
+  const name = document.getElementById('name').value;
+
+  const date = document.getElementById('date').value;
+
+  const time = document.getElementById('time').value;
+
+  const guests = document.getElementById('guests').value;
+
+
+  const reservationData = {
+
+    name,
+    date,
+    time,
+    guests,
+
+  };
+
+  })
 
