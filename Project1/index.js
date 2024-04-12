@@ -103,6 +103,7 @@ reservationForm.addEventListener("submit", (e) => {
         return;
       }
 
-    })
-})
-})
+      console.log("Booking successful!");
+    });
+  });
+});
