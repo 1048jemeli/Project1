@@ -73,6 +73,7 @@ body, html {
   text-align: center;
 
   background-color: rgba(0, 0, 0, 0.4);
+  font-style: italic;
 
 }
 
@@ -97,6 +98,7 @@ body, html {
   max-width: 800px;
 
   margin: 0 auto;
+  font-style: italic;
 
 }
 
@@ -268,3 +270,84 @@ nav ul li a:hover {
 .info{
   text-align: center;
 }
+#booking-form {
+
+  width: 300px;
+
+  margin: 0 auto;
+
+  padding: 20px;
+
+  border: 1px solid #ccc;
+
+  box-shadow: 0px 0px 10px #ccc;
+
+}
+
+
+#booking-form h2 {
+
+  text-align: center;
+
+  margin-bottom: 20px;
+
+}
+
+
+#booking-form label {
+
+  display: block;
+
+  margin-bottom: 5px;
+
+}
+
+
+#booking-form input[type="text"],
+
+#booking-form input[type="date"],
+
+#booking-form input[type="time"],
+
+#booking-form input[type="number"] {
+
+  width: 100%;
+
+  padding: 5px;
+
+  margin-bottom: 10px;
+
+  border: 1px solid #ccc;
+
+  border-radius: 5px;
+
+  box-sizing: border-box;
+
+}
+
+
+#booking-form input[type="submit"] {
+
+  width: 100%;
+
+  padding: 10px;
+
+  background-color: #4CAF50;
+
+  color: white;
+
+  border: none;
+
+  border-radius: 5px;
+
+  cursor: pointer;
+
+}
+
+
+#booking-form input[type="submit"]:hover {
+
+  background-color: #3e8e41;
+
+}
+

@@ -6,7 +6,7 @@
         "location": ["Nakuru", "Lake Nakuru"],
         "open": ["7:00pm-5:00pm"],
         "Cuisine type": "ethnic",
-        "picture": "https://res.cloudinary.com/grand-canyon-university/image/fetch/w_750,h_564,c_fill,g_faces,q_auto/https://www.gcu.edu/sites/default/files/media/images/Blog/Content%20Campaigns/shutterstock_1383065213.jpg"
+        "picture": "https://thasneen.com/cooking/wp-content/uploads/2019/03/Butter-Chicken.jpg"
       },
       {
         "id": "2",
@@ -38,7 +38,7 @@
         "location": ["Eldoret", "Upper Elgon View"],
         "open": ["6:00am-10:00pm"],
         "Cuisine type": "fine dining",
-        "picture": "https://d1tm14lrsghf7q.cloudfront.net/public/media/103456/conversions/SDT-Iyoki-Cover-cover.jpg"
+        "picture": "https://img.delicious.com.au/qmZXn3pY/del/2023/01/stokehouse-181853-1.jpg"
       
       },
       {
@@ -47,7 +47,7 @@
         "location": ["Nyeri", "Nyeri Hills"],
         "open": ["5:00am-11:00pm"],
         "Cuisine type": "Italian cuisine",
-        "picture": ["https://facts.net/wp-content/uploads/2023/05/Slice-of-lasagna-410x260.jpeg", "https://milwaukeeinsider.com/wp-content/uploads/2021/12/best-italian-restaurants-in-Milwaukee_.jpg" ]
+        "picture": "https://facts.net/wp-content/uploads/2023/05/Slice-of-lasagna-410x260.jpeg" 
       },
       {
         "id": "7",
