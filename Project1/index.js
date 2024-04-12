@@ -17,3 +17,18 @@ function fetchRestaurants(url) {
     });
 }
 
+function displayRestaurant(restaurant) {
+  const listHolder = document.getElementById("restaurants");
+
+  const li = document.createElement("li");
+  li.className = "restaurant-item";
+  li.style.cursor = "pointer";
+  li.textContent = restaurant.title.toUpperCase();
+  listHolder.appendChild(li);
+
+  li.addEventListener("click", () => {
+    setUpRestaurantDetails(restaurant);
+  });
+}
+
+
