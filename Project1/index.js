@@ -72,3 +72,20 @@ document.addEventListener("scroll", function () {
   title.style.opacity = animationProgress;
   title.style.width = animationProgress * 100 + "%";
 });
+const fs = require("fs");
+
+const reservationForm = document.getElementById("reservation-form");
+reservationForm.addEventListener("submit", (e) => {
+  e.preventDefault();
+  const name = document.getElementById("name").value;
+  const date = document.getElementById("date").value;
+  const time = document.getElementById("time").value;
+  const guests = document.getElementById("guests").value;
+  const reservationData = {
+    name,
+    date,
+    time,
+    guests,
+  };
+
+})
