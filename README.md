@@ -20,7 +20,7 @@ Git clone git@github.com:1048jemeli/Project1.git
 ```
 
 # Live Link
-http://127.0.0.1:5500/Index.html
+http://127.0.0.1:5501/Index.html
 
 ## Technologies used
 HTML
